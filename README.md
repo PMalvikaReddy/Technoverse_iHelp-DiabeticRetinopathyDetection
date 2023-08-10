@@ -1,4 +1,4 @@
-![image](https://github.com/PMalvikaReddy/Technoverse_iHelp-DiabeticRetinopathyDetection/assets/116015331/2e075afa-b481-42fa-98ba-382b141e1fd1)# Technoverse 2023 
+# Technoverse 2023 
 # i-Help : Diabetic Retinopathy Detection To Protect Your Vision.
 
 India is often referred to as the ‘Diabetes Capital of the World' as it accounts for a whopping 17% of the total diabetes patients in the world. There are currently close to 80 million people with diabetes in India and this number is set to rise to 135 million by 2045.
