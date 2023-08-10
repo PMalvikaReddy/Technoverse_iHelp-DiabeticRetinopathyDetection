@@ -1,6 +1,7 @@
 # Technoverse 2023 
 # i-Help : Diabetic Retinopathy Detection To Protect Your Vision.
 
+## Introduction
 India is often referred to as the ‘Diabetes Capital of the World' as it accounts for a whopping 17% of the total diabetes patients in the world. There are currently close to 80 million people with diabetes in India and this number is set to rise to 135 million by 2045.
 
 With the rise of diabetes, the risks associated with diabetes has also been leading to complications like Diabetic Retinopathy.
@@ -17,12 +18,18 @@ This code can be implemented through regular eye scanners for an early detection
 ## Tools used for development :
 
 ### Frontend - 
-HTML, CSS, Flask
+- **HTML and CSS**:- Used to create a visually appealing webpage and add styling, layout and control the look and feel of the website. 
+
+- **Flask**:- It is a lightweight, open source web application framework for Python that we have used to deploy the deep learning model to the website.
 
 ### Backend -
-MongoDB, IPFS, CNN, TensorFlow, Keras, Moralis
+- **TensorFlow**:- We have used tensorflow API to train our model which predicts the current stage of Alzheimer's disease based on the brain scan image uploaded by the user.
 
-### Our Features : 
+- **KerasAPI**:- Keras is a high level neural network library. We have used it to train our deep learning model using the VGG19 Algorithm.
+
+- **VGG16**:-VGG16 is a convolutional neural network architecture with 16 layers, known for its deep structure and strong performance in image classification tasks. It consists of multiple convolutional layers 5-max pooling layers, ending with 3 fully connected layers for prediction.
+
+## Our Features : 
 - Detection of 5 stages of Diabetic Retinopathy.
 - Interactive UI-based web-app
 - A chatbot on our web-app for service assistance and ease of usage.
@@ -30,7 +37,7 @@ MongoDB, IPFS, CNN, TensorFlow, Keras, Moralis
 - This report is also backed up on our IPFS web3 storage.
 - Shows location of nearest eye hospital.
 
-#### Implementation :
+## Implementation :
 - The eye scan is fed into our model through the interface.
 - This scan is analysed and a DR detection report is generated, based on our dataset of about 3,600 images of DR retina scans from IEEE.
 - The detailed report is sent to the patient's email, and stored in MongoDB.
@@ -38,43 +45,41 @@ MongoDB, IPFS, CNN, TensorFlow, Keras, Moralis
 - Google Maps API has been used for showing the nearest eye hospital as a suggestion to the patient, based on the current location of the user.
 - If the patient has any queries, they can get the required answers through our chatbot on our web-app.
 
-#### Output Screenshots:
-Output 1:
+## Output Screenshots:
+### Output 1:
 i-Help web app user interface
 
 ![UI1 (1)](https://user-images.githubusercontent.com/108075033/210940143-c68439fa-9570-4e1c-920d-ae6ba9c09a68.png)
 
-Output 2:
+### Output 2:
 User interface 2
 
 ![UI1 (2)](https://user-images.githubusercontent.com/108075033/210940242-4633ea3c-de61-4d13-9637-b9429d3cdcff.png)
 
-Output 3:
+### Output 3:
 Nearest hospital location
 
 ![UI1 (3)](https://user-images.githubusercontent.com/108075033/210940312-c0564bdd-9e40-45c9-9321-c9d47993f540.png)
 
-Output 4:
+### Output 4:
 ChatBot implementation in the web app.
 
 ![UI1_chatbot](https://user-images.githubusercontent.com/108075033/210940340-7525c9cb-2b17-4a05-ab47-3bbc2698f2db.png)
 
-Output 5:
+### Output 5:
 Diabetic Retinopathy Detection by uploading the eye scan image.
 
 ![UI1_prediction](https://user-images.githubusercontent.com/108075033/210940360-10ab66db-3f36-4f2c-8892-7c1e943b89eb.png)
-
-Output 6:
-MongoDb database to store user information and the ipfs report pdf url.
+### Output 6:MongoDb database to store user information and the ipfs report pdf url.
 
 ![UI1_mongodb](https://user-images.githubusercontent.com/108075033/210940391-9e015c4f-0acd-4cd8-98a9-1c298f96a501.png)
 
-Output 7:
+### Output 7:
 The email is generateed once the prediction happens from the image uploaded by the user. The email consists of an attachment of the medical report generated.
 
 ![UI1_email](https://user-images.githubusercontent.com/108075033/210940453-570fe8e3-70de-4fb6-8104-00cafd6eeab0.png)
 
-Output 8:
+### Output 8:
 The generated report after prediction stored on the ipfs web3 storage using the moralis api:
 
 ![ipfs_pdf](https://user-images.githubusercontent.com/108075033/210940474-7fd60b29-0d76-47e7-873d-24646cddc213.png)
