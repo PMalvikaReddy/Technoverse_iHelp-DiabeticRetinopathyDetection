@@ -23,7 +23,7 @@ This code can be implemented through regular eye scanners for an early detection
 - **Flask**:- It is a lightweight, open source web application framework for Python that we have used to deploy the deep learning model to the website.
 
 ### Backend -
-- **TensorFlow**:- We have used tensorflow API to train our model which predicts the current stage of Alzheimer's disease based on the brain scan image uploaded by the user.
+- **TensorFlow**:- We have used tensorflow API to train our model which predicts the current stage of DR disease based on the eye scan image uploaded by the user.
 
 - **KerasAPI**:- Keras is a high level neural network library. We have used it to train our deep learning model using the VGG19 Algorithm.
 
